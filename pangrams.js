@@ -3,7 +3,7 @@ function pangrams(s) {
 
     s.split('').forEach(ss => {
         // if this is a letter, then add it to the set
-        if(ss.toUpperCase().match(/[A-Z]/g)) {
+        if (ss.toUpperCase().match(/[A-Z]/g)) {
             sUniq.add(ss.toUpperCase());
         }
     })

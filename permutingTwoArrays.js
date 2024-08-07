@@ -1,10 +1,10 @@
 function permutingTwoArrays(k, A, B) {
     let allGreaterOrEqualToK = true;
-    A.sort((a,b) => a-b);
-    B.sort((a,b) => b-a);
+    A.sort((a, b) => a - b);
+    B.sort((a, b) => b - a);
 
     A.forEach((e, i) => {
-        if((A[i] + B[i]) < k) {
+        if ((A[i] + B[i]) < k) {
             allGreaterOrEqualToK = false;
         }
     })

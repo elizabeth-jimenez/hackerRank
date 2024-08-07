@@ -2,7 +2,7 @@ function diagonalDifference(arr) {
     let LR = 0;
     let RL = 0;
 
-    for(let i = 0; i < arr.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
         const inverseI = arr.length - 1 - i;
         LR += arr[i][i];
         RL += arr[i][inverseI];

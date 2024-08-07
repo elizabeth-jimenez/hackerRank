@@ -6,8 +6,8 @@ function birthday(s, d, m) {
 
     // slice on m, creeping forward
     s.forEach((ss, i) => {
-        if(i <= (s.length - m)) {
-            numOfWays = s.slice(i, i+m).reduce((a, c) => a+c, 0) === d ? ++numOfWays : numOfWays;
+        if (i <= (s.length - m)) {
+            numOfWays = s.slice(i, i + m).reduce((a, c) => a + c, 0) === d ? ++numOfWays : numOfWays;
         }
     });
 
