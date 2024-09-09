@@ -17,7 +17,6 @@ function binarySearch(a, k) {
             nArr = nArr.slice(mid+1);
         }
     }
-    console.log('hello?');
     return found;
 }
 
